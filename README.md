@@ -3,11 +3,8 @@
 ## Project Description
 In this project our goal is to demonstrate other techniques for regularizing neural networks.
 
-#### NNOneSplit function
-See our implementation of NNetOneSplit function using R language [here](NNetOneSplit.R).
-
-#### Gradient Descent Algorithm
-You can also see our implementation of Gradient Descent Algorithm using R language [here](GradientDescent.R).
+#### Source codes
+You can also see our source codes using R language [here](project5.R).
 
 ## How to run it
 ### 1 Environment Configuration
@@ -35,32 +32,23 @@ Open RStudio, in the 'console' command line at the bottom left corner, type
 ```
 setwd('PATH')
 ```
-where PATH is where you unzip all the R files and data on your machine.
+where PATH is where you unzip all the R files and spam data on your machine.
 
 WARNING: In your path, use '/' instead of '\'.
 
 #### 3.2 Open R files
 Click 'File'->'Open File' at the top left corner, the choose
 ```
-GradientDescent.R
-NNetOneSplit.R
-Experiment.R
-Extra_Credit-2.R
-Extra_Credit-3.R
-Extra_Credit-5.R
+project5.R
 ```
 to open it.
 
 #### 3.3 Run R files
-First go to GradientDescent.R, then click the 'run' button in the file section (not the whole window) once, this will run the current line, until there's nothing running in the console section.
+First go to project5.R, then click the 'run' button in the file section (not the whole window) once, this will run the current line, until there's nothing running in the console section.
 
-Then go to NNetOneSplit.R, then click 'run' again until there's nothing running in the console section.
+There will be a part when it's keep outputing plots and you can do nothing, because we used 2 for loops with 5 each, so it's 25 loops in total, wait until it finishes then click 'run' until we see the package 'ggplot' is called, a graph will show in the bottom right section.
 
-Then go to Experiment.R, then click 'run' until we see the package 'ggplot' is called, a graph will show in the bottom right section, showing the relationship between subtrain/validation loss and # of epochs with a point to emphasize the minimum of the validation loss curve. Click more, a percentage table will show. Maybe you need to wait for a while to train and load. When the console in the bottom left corner is running, please do not load new commands.
-
-For extra credits, just go to Extra_Credit-2.R, Extra_Credit-3.R, Extra_Credit-5.R, and run from the first line again to the end. Maybe you need to wait for a while to train and load. When the console in the bottom left corner is running, please do not load new commands.
-
-Maybe you need to wait for a while to train and load. When the console in the bottom left corner is running, please do not load new commands.
+For extra credits, just go to a part called "Extra Credits: 4-fold validation" and run that part. Maybe you need to wait for a while to train and load. When the console in the bottom left corner is running, please do not load new commands. In correct operation, it will output the accuracy.
 
 ## About
 This is our fifth group project of CS499 Deep Learning course in Spring 2020 at [NAU](https://nau.edu/)
